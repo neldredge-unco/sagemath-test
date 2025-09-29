@@ -1,1 +1,2 @@
 FROM sagemath/sagemath:latest
+RUN apt update && apt install -y git
