@@ -1,1 +1,1 @@
-FROM computop/sage
+FROM sagemath/sagemath:latest
