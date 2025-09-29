@@ -1,2 +1,4 @@
 FROM sagemath/sagemath:latest
-RUN apt update && apt install -y git
+USER root
+RUN apt-get update && apt-get install -y git
+USER $NB_UID
